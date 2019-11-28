@@ -10,5 +10,7 @@ public interface RetrofitAp {
     @GET("/HPImageArchive.aspx?format=js&idx=0&n=50&mkt=en-US")
     Call<Network> getImageData();
 
+    //http://programmingroot.com/android-retrofit-http-library-fetch-json-listview-tutorial-example/
+    //https://demonuts.com/android-retrofit-listview/
 
 }
